@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Verification System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Certificate Verification System</h1>
+            <p>Professional Certificate Display & Verification</p>
+        </div>
+
+        <div class="verification-section">
+            <h2>Verification Process</h2>
+            <div class="verification-status">
+                <div class="status-item">
+                    <span class="status-label">Status:</span>
+                    <span id="status" class="status-value">Initializing...</span>
+                </div>
+                <div class="progress-bar">
+                    <div id="progress" class="progress-fill"></div>
+                </div>
+                <div class="status-details" id="statusDetails">
+                    <p>Starting verification process...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="certificate-section">
+            <h2>Your Certificate</h2>
+            <div class="certificate">
+                <div class="certificate-header">
+                    <h3>Certificate of Achievement</h3>
+                </div>
+                <div class="certificate-body">
+                    <p class="cert-text">This is to certify that</p>
+                    <p class="cert-name" id="certName">Certificate Holder</p>
+                    <p class="cert-text">has successfully completed and demonstrated excellence in</p>
+                    <p class="cert-achievement">Professional Development Program</p>
+                    <div class="cert-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Issue Date:</span>
+                            <span class="detail-value" id="issueDate">August 24, 2026</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Certificate ID:</span>
+                            <span class="detail-value" id="certId">CERT-2026-08-24-001</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Verification Status:</span>
+                            <span class="detail-value verification-badge" id="verificationBadge">Verifying...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate-footer">
+                    <p>Verified and Authenticated</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="verification-log">
+            <h2>Verification Log</h2>
+            <div id="verificationLog" class="log-content">
+                <p class="log-entry">Verification process initialized...</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 Certificate Verification System. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
